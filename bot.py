@@ -46,7 +46,7 @@ eco_data = {}
 jobs = ['Programozó', 'Gyári munkás', 'Eladó', 'Pincér', 'Szállítmányozó', "YouTuber", "Énekes", "Varga", "Szabó", "Játék Developer"]
 
 # ahol lehet hasznalni a bot helye
-business_channel_id = 1217941267564986461  # a csatorna id-je
+business_channel_id = channel_id # a csatorna id-je
 
 @tasks.loop(seconds=5)
 async def update_status():
